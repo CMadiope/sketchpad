@@ -1,4 +1,15 @@
-
-.container{
-  background: red;
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
+.div{
+  background-color: azure;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+body {
+  background: grey;
+}
+
