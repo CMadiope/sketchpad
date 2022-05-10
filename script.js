@@ -1,0 +1,35 @@
+let container = document.querySelector(".container");
+let div1 = document.createElement("div");
+div1.classList.add("div1");
+let div2 = document.createElement("div");
+div2.classList.add("div2");
+let div3 = document.createElement("div");
+div3.classList.add("div3");
+let div4 = document.createElement("div");
+div4.classList.add("div4");
+let div5 = document.createElement("div");
+div5.classList.add("div5");
+let div6 = document.createElement("div");
+div6.classList.add("div");
+let div7 = document.creteElement("div");
+div7.classList.add("div");
+let div8 = document.createElement("div");
+div8.classList.add("div");
+let div9 = document.createElement("div");
+div9.classList.add("div");
+let div10 = document.createElement("div");
+div10.classList.add("div");
+let div11 = document.createElement("div");
+div11.classList.add("div");
+let div12 = document.createElement("div");
+div12.classList.add("div");
+let div13 = document.createElement("div");
+div13.classList.add("div");
+let div14 = document.createElement("div");
+div14.classList.add("div");
+let div15 = document.createElement("div");
+div15.classList.add("div");
+let div16 = document.createElement("div");
+div16.classList.add("div");
+
+container.appendChild(document.querySelectorAll('.div'))
