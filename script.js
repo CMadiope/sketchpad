@@ -32,7 +32,7 @@ div15.classList.add("div");
 let div16 = document.createElement("div");
 div16.classList.add("div");
 
-document.getElementById('container').appendChild(div1);
+document.getElementById("container").appendChild(div1);
 document.getElementById("container").appendChild(div2);
 document.getElementById("container").appendChild(div3);
 document.getElementById("container").appendChild(div4);
@@ -49,18 +49,9 @@ document.getElementById("container").appendChild(div14);
 document.getElementById("container").appendChild(div15);
 document.getElementById("container").appendChild(div16);
 
+const btn = document.querySelector(".btn");
+function input() {
+  let userInput = prompt("Enter the number of squares per side:");
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+btn.onclick = () => input();
