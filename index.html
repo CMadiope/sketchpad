@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Confidenc Madiope" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
@@ -12,12 +13,19 @@
       <h1>Etch A Sketch</h1>
     </div>
     <div class="btn-container">
-      <button class="btn" type="button" id="btn-size">Size</button>
-      <button class="btn" id="black">black</button>
-      <button class="btn" id="btn-rainbow">Rainbow</button>
-      <button class="btn" id="btn-clear">Clear</button>
+      <button class="btn" id="black" data-color="black">Black</button>
+      <button class="btn" id="btn-rainbow" data-color="rainbow">Rainbow</button>
+      <button class="btn" id="btn-choose">
+        Choose: <input type="color" id="color" />
+      </button>
+
+      <button class="btn" id="btn-clear" data-color="clear">Clear</button>
+      <div class="sliderAndValue">
+            <input type="range" min="2" max="100" value="16" id="slider">
+            <p class="value">16</p>
+        </div>
     </div>
-    <div class="container" id="container"></div>
+    <div class="container" id="maincontainer"></div>
 
     <script src="./script.js"></script>
   </body>
